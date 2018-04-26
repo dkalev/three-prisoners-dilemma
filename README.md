@@ -1,5 +1,24 @@
 # three-prisoners-dilemma
 
+
+##Problem
+
+Two Prisoners Dilemma
+
+Two members of a criminal gang are arrested and imprisoned. Each prisoner is in solitary confinement with no means of communicating with the other. The prosecutors lack sufficient evidence to convict the pair on the principal charge. They hope to get both sentenced to a year in prison on a lesser charge. Simultaneously, the prosecutors offer each prisoner a bargain. Each prisoner is given the opportunity either to: betray the other by testifying that the other committed the crime, or to cooperate with the other by remaining silent. The offer is:
+
+*If A and B each betray the other, each of them serves 2 years in prison
+*If A betrays B but B remains silent, A will be set free and B will serve 3 years in prison (and vice versa)
+*If A and B both remain silent, both of them will only serve 1 year in prison (on the lesser charge)
+
+Repeated Prisoners Dilemma
+
+In a repeated game, a given game (often thought of in normal form) is played multiple times (possibly
+infinitely many times) by the same set of players. A strategy in a repeated game specifies what action the agent should take in each stage of the game,
+given all the actions taken by all players in the past.
+
+##Solution
+
 Design process
 
 I started with very simple agent that starts by cooperation and then cooperates only if both his opponents did in the previous round. The idea behind that was that the only state which gives higher payoff than mutual cooperation U(CCC) is U(DCC). However, both opponents want to deviate from U(DCC), therefore assuming the opponents are rational players, trying to achieve highest utility, they will try to maintain U(CCC) for most of the time. After that I played tournaments with different set of matches to determine where the other players performed better and where the agent can be improved. 
