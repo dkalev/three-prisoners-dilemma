@@ -1,7 +1,7 @@
 # three-prisoners-dilemma
 
 
-##Problem
+## Problem
 
 Two Prisoners Dilemma
 
@@ -17,7 +17,7 @@ In a repeated game, a given game (often thought of in normal form) is played mul
 infinitely many times) by the same set of players. A strategy in a repeated game specifies what action the agent should take in each stage of the game,
 given all the actions taken by all players in the past.
 
-##Solution
+## Solution
 
 Design process
 
